@@ -1,0 +1,70 @@
+
+.title{
+    font-family: 'Crimson Text', serif;
+    line-height: 1.5;
+}
+#signature{
+    font-size: 3rem;
+    font-family: 'Crimson Text', serif;
+}
+.ME {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.container-fluid{
+    padding: 6% 15%;  
+}
+
+section{
+    padding: 0 10%;
+}
+.offwhitesection{
+    background-color: #dbdbdb;
+}
+
+#aboutme1{
+    background-color: #ffffff
+}
+.adventure{
+    position: relative;
+}
+.dark{
+    color:#ffffff;
+}
+.future{
+    background-image: url('images/nasa-Q1p7bh3SHj8-unsplash.jpg');
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    background-position: 0% 35%;
+    background-color: #dbdbdb; /* Used if the image is unavailable */
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+h2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 3em;
+    margin: auto;
+}
+
+/* Menu resizing */
+    .navbar {
+    font-size:1.5em;
+  }
+  
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    .navbar {
+        font-size:2em;
+      }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    .navbar {
+        font-size:2em;
+      }
+  }
