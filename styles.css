@@ -16,6 +16,7 @@
 
 .container-fluid{
     padding: 6% 15%;  
+    margin: auto;
 }
 
 section{
@@ -24,7 +25,9 @@ section{
 .offwhitesection{
     background-color: #dbdbdb;
 }
-
+.beer{
+    text-align: center;
+}
 #aboutme1{
     background-color: #ffffff
 }
