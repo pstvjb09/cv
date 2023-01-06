@@ -1,35 +1,19 @@
+/******************************TAGS*************************************/
 
-.title{
-    font-family: 'Crimson Text', serif;
-    line-height: 1.5;
-}
-#signature{
-    font-size: 3rem;
-    font-family: 'Crimson Text', serif;
-}
-.ME {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 100%;
-}
-
-.container-fluid{
-    padding: 6% 15%;  
+h2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 3em;
     margin: auto;
 }
-
 section{
     padding: 0 10%;
 }
-.offwhitesection{
-    background-color: #dbdbdb;
-}
-.beer{
-    text-align: center;
-}
-#aboutme1{
-    background-color: #ffffff
+
+
+/******************************CLASSES*************************************/
+.title{
+    font-family: 'Crimson Text', serif;
+    line-height: 1.5;
 }
 .adventure{
     position: relative;
@@ -47,16 +31,48 @@ section{
     background-repeat: no-repeat; 
     background-size: cover; 
 }
-h2{
-    font-family: 'Kanit', sans-serif;
-    font-size: 3em;
+.ME {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.offwhitesection{
+    background-color: #dbdbdb;
+}
+.beer{
+    text-align: center;
+}
+.container-fluid{
+    padding: 6% 15%;  
     margin: auto;
 }
 
-/* Menu resizing */
-    .navbar {
+.beyond{
+    position: absolute;
+    float: right;
+    right: 20px;
+}
+.navbar {
     font-size:1.5em;
   }
+
+/******************************IDS*************************************/
+
+
+#signature{
+    font-size: 3rem;
+    font-family: 'Crimson Text', serif;
+}
+
+#aboutme1{
+    background-color: #ffffff
+}
+
+
+
+/******************************MEDIA RESIZING*************************************/    
+
   
   /* On screens that are 992px or less, set the background color to blue */
   @media screen and (max-width: 992px) {
